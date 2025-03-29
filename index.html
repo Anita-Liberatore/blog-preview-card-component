@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Blog Preview Card | Frontend Mentor</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <!-- Preconnect per performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="container">
+    <article class="card" aria-labelledby="card-title">
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt="Illustrazione stilizzata in giallo e nero"
+        class="card-image"
+        width="320"
+        height="160"
+        loading="lazy"
+      />
+      <div class="card-content">
+        <span class="tag">Learning</span>
+        <p class="date">Published 21 Dec 2023</p>
+        <h2 id="card-title" class="title">HTML & CSS foundations</h2>
+        <p class="description">
+          These languages are the backbone of every website, defining
+          structure, content, and presentation.</p>
+        <div class="avatar">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="Avatar di Greg Hopper"
+            class="avatar-img"
+            width="32"
+            height="32"
+            loading="lazy"
+          />
+          <span class="author-name">Greg Hopper</span>
+        </div>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
